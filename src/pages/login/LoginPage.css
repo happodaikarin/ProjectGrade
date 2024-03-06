@@ -1,0 +1,90 @@
+.login-container {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color:#DBFF00
+  }
+  
+  .login-form {
+    background-color: teal;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+  
+  .login-form input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+  }
+  
+  .login-form button {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .instructions {
+    margin-top: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    color:#DBFF00
+  }
+
+  .user-selection button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    margin-bottom: 10%;
+    background-color: #444; /* Color inactivo */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user-selection button.active {
+    background-color: #008cba; /* Color activo */
+  }
+  
+  /* Media queries */
+  @media (max-width: 768px) {
+    .title {
+      font-size: 1.5em;
+    }
+  
+    .login-form {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 1.2em;
+    }
+  
+    .login-form {
+      padding: 10px;
+    }
+  
+    .instructions {
+      font-size: 0.8em;
+    }
+  }
+  
