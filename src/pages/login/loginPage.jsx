@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '/home/ramses/FrontEnd/src/pages/login/LoginPage.css'; // Asegúrate de que este archivo contiene tus estilos
+import './LoginPage.css'; // Asegúrate de que este archivo contiene tus estilos
 
 function LoginPage() {
   let navigate = useNavigate();
